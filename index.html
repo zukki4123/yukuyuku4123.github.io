@@ -1,204 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
-<META NAME="GOOGLEBOT" CONTENT="NOINDEX,NOFOLLOW,NOARCHIVE">
-<META NAME="ROBOTS" CONTENT="NOARCHIVE,NOINDEX,NOFOLLOW">
-<meta name="robots" content="noindex,nofollow,noarchive">
-<meta http-equiv="cache-control" content="no-cache">
-<meta charset="UTF-8">
-<title>site.yukuyuku4123</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<link rel="stylesheet" type="text/css" href="css/reset.css" media="screen">
-<link rel="stylesheet" type="text/css" href="css/index.css" media="screen">
-<link rel="icon" type="image/png" href="img/design72_favicon.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow,noarchive">
+    <meta name="description" content="回路設計と組み込み開発に取り組む zukki の個人サイト。公開プロジェクトと技術記事へのリンクをまとめています。">
+    <meta name="theme-color" content="#10191a">
+    <title>zukki | 回路設計と組み込み開発</title>
+    <link rel="icon" type="image/png" href="img/design72_favicon.png">
+    <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
-<div class="pageWrap">
-
-    <!-- モバイル用メニュートリガー -->
-    <div id="navTrigger" class="navTrigger mobile"></div>
-
-    <!-- ナビゲーション -->
-    <div id="mainNavWrap" class="mainNavWrap">
-        <nav id="mainNav" class="mainNav">
-            <div class="navInfo">
-                <h1>yukuyuku4123 site</h1>
-                <div class="url">https://yukuyuku4123.github.io/</div>
-            </div>
-
-            <ul>
-                <li><a href="#link_info">information</a></li>
-                <li><a href="#link_contents">blogs</a></li>
-                <li><a href="#link_mail">contact</a></li>
-            </ul>
-        </nav>
-    </div>
-    <!-- /ナビゲーション -->
-
-
-    <!-- ヘッダー -->
-    <header id="mainHeader" class="mainHeader">
-        <div class="headerBox">
-            <div class="siteTitle">yukuyuku4123<br>HOME</div>
-            <div class="siteInfo"><span>yukuyuku4123</span> site.</div>
+    <a class="skip" href="#main">本文へ移動</a>
+    <header class="site-header">
+        <div class="wrap header-row">
+            <a class="brand" href="./">zukki<span>.</span></a>
+            <nav aria-label="メインナビゲーション">
+                <a href="#link_contents">制作物</a>
+                <a href="#link_info">プロフィール</a>
+                <a href="#link_mail">リンク</a>
+            </nav>
         </div>
     </header>
-    <!-- /ヘッダー -->
 
-
-    <!-- メイン部分 -->
-    <div class="contentsWrap">
-        <!-- information -->
-        <section id="link_info" class="box">
-            <h2>information</h2>
-            <center>
-                <p>yukuyuku4123ことzukkiさんのホームページです。</p>
-                <p>技術的な情報とか日常的な情報をまとめています。</p>
-            </center>
-
-            <h2>about me</h2>
-            <center>
-                <img src="img/yukuyuku4123.jpg" alt="yukuyuku4123" width="150" height="150">
-                <h4>名前:zukki</h4>
-                <p>普段は回路設計をしています。</p>
-                <p>たまにプログラムも書いています。</p>
-            </center>
-        </section>
-        <!-- links -->
-        <section class="box">
-            <h2>links</h2>
-            <ul class="sns-button">
-                <li><a href="https://twitter.com/yukuyuku4123" target="_blank"><i></i><img src="img/twitter.png" alt="twitter"></a></li>
-                <li><a href="https://github.com/yukuyuku4123" target="_blank"><i></i><img src="img/github.png" alt="github"></a></li>
-                <li><a href="https://note.com/yukuyuku_4123" target="_blank"><i></i><img src="img/note.png" alt="note" class="note"></a></li>
-                <li><a href="https://qiita.com/yukuyuku4123" target="_blank"><i></i><img src="img/qiita.png" alt="qiita"></a></li>
-            </ul>
-
-            <h2>latest post</h2>
-                <center>
-                <blockquote class="twitter-tweet">
-                    <p lang="ja" dir="ltr">
-                        STM32duino CAN通信のライブラリを公開しました。(platformIO)<br><br>対応するボード、機能もまだ少ないですし、関数等の仕様の変更もあると思いますが、これから頑張って更新していくのでよろしくお願いします。
-                        <a href="https://t.co/427D4zIlDR">https://t.co/427D4zIlDR</a>
-                    </p>&mdash; zukki.stl (@yukuyuku4123)
-                    <a href="https://twitter.com/yukuyuku4123/status/1904492300291715546?ref_src=twsrc%5Etfw">March 25, 2025</a>
-                </blockquote>
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </center>
-
-            <!-- <h3><span>heading3</span></h3>
-            <h3><span>見出し３</span></h3>
-            <h4>heading4</h4>
-            <p><a href="">リンク</a>と<em>強調</em>と<strong>もっと強調</strong></p> -->
+    <main id="main">
+        <section class="hero" aria-labelledby="intro">
+            <div class="wrap hero-layout">
+                <div>
+                    <p class="eyebrow">yukuyuku4123</p>
+                    <h1 id="intro">回路を設計し、<br>コードを書く<span>。</span></h1>
+                    <p class="intro">zukki の個人サイトです。マイコン基板や組み込みソフトウェアなど、公開している制作物をまとめています。</p>
+                    <a class="button" href="#link_contents">制作物を見る</a>
+                </div>
+                <div class="portrait-panel">
+                    <img src="img/yukuyuku4123.jpg" width="150" height="150" alt="zukki のプロフィール画像">
+                </div>
+            </div>
         </section>
 
-        <!-- blogs -->
-        <section id="link_contents" class="box novel">
-            <h2>blogs</h2>
-            <center>
-            <h1>comming soon...</h1>
-            </center>
-<!--
-            <h3><span>name change</span></h3>
--->
-            <!-- 名前変換フォーム（ダミー） -->
-<!--
-            <form class="nameChange space">
-                <input type="text" placeholder="名字" class="enter"><input type="text" placeholder="名前" class="enter"><input type="submit" value="input" class="button">
-            </form>
--->
-            <!-- /名前変換フォーム（ダミー） -->
-
-<!--
-            <h3><span>long1</span></h3>
--->
-            <!-- 長編リスト（画像なし） -->
-<!--
-            <ul class="longList space">
-                <li><a href="">タイトル</a>
-                    <div class="longInfo">あらすじあらすじ全何話</div>
-                </li>
-                <li><a href="">タイトル</a>
-                    <div class="longInfo">あらすじあらすじ</div>
-                </li>
-                <li><a href="">タイトル</a>
-                    <div class="longInfo">あらすじあらすじ</div>
-                </li>
-            </ul>
--->
-            <!-- /長編リスト（画像なし） -->
-
-<!--
-            <h3><span>long2</span></h3>
--->
-            <!-- 長編リスト（画像あり） -->
-<!--
-            <ul class="longList2 space">
-                <li>
-                <a href="">
-                    <div class="longImage"><img src="img/design72.png" alt="image"></div>
-                    タイトル
-                    <div class="longInfo">あらすじあらすじ全何話</div>
-                </a>
-                </li>
-
-                <li>
-                <a href="">
-                    <div class="longImage long_2 light"><img src="img/design72_bed.jpg" alt="image"></div>
-                    タイトル
-                    <div class="longInfo">色が薄い画像のときはclass="light"で枠線の色が変わります。</div>
-                </a>
-                </li>
-
-                <li class="new">
-                <a href="">
-                    <div class="longImage"><img src="img/item/item_18.jpg" alt="image"></div>
-                    タイトル
-                    <div class="longInfo">あらすじあらすじ</div>
-                </a>
-                </li>
-            </ul>
--->
-            <!-- /長編リスト（画像あり） -->
-
-<!--
-            <h3><span>short</span></h3>
--->
-            <!-- 短編リスト -->
-<!--
-            <ul class="shortList space">
-                <li class="new"><a href="page.html">本文サンプル</a></li>
-                <li><a href="">リンクサンプル</a><span>既読</span></li>
-                <li><a href="URL">リンクサンプル</a><span>未読</span></li>
-                <li><a href="">タイトル</a><span>注意</span></li>
-                <li><span class="left">注意（左）</span><a href="">タイトル</a></li>
-                <li><a href="">タイトル</a></li>
-            </ul>
--->
-            <!-- /短編リスト -->
+        <section id="link_contents" class="wrap projects">
+            <h2>公開プロジェクト</h2>
+            <div class="project-grid">
+                <article>
+                    <p class="eyebrow">CAN BUS</p>
+                    <h3>STM32duino CAN BUS Library</h3>
+                    <p>STM32duino で CAN 通信を扱うライブラリ。README に対応マイコンと使い方をまとめています。</p>
+                    <a href="https://github.com/zukki4123/STM32duino-CAN-BUS-Library" aria-label="STM32duino CAN BUS Library を GitHub で見る">GitHub で見る</a>
+                </article>
+                <article>
+                    <p class="eyebrow">ESP32</p>
+                    <h3>ESP32 DevKitC 互換基板</h3>
+                    <p>ESP32 DevKitC と互換性のある基板の設計プロジェクトです。</p>
+                    <a href="https://github.com/zukki4123/yukuyuku_ESP32DevKitC_CompatibleV1" aria-label="ESP32 DevKitC 互換基板を GitHub で見る">GitHub で見る</a>
+                </article>
+                <article>
+                    <p class="eyebrow">USBasp</p>
+                    <h3>USBasp Programmer V2</h3>
+                    <p>USBasp を使った書き込み器の制作プロジェクトです。</p>
+                    <a href="https://github.com/zukki4123/yukuyuku_USBasp_ProgrammerV2" aria-label="USBasp Programmer V2 を GitHub で見る">GitHub で見る</a>
+                </article>
+            </div>
+            <p class="announcement"><time datetime="2025-03-25">2025.03.25</time> <a href="https://twitter.com/yukuyuku4123/status/1904492300291715546">STM32duino CAN ライブラリの公開について</a></p>
         </section>
 
-        <section id="link_mail" class="box">
-            <h2>mainform(Not yet)</h2>
-            <p>なにかありましたらどうぞ！</p>
+        <div class="about-band">
+            <div class="wrap about-layout">
+                <section id="link_info">
+                    <h2>プロフィール</h2>
+                    <p>zukki（yukuyuku4123）です。普段は回路設計をしていて、ときどきプログラムも書いています。</p>
+                </section>
+                <section id="link_mail">
+                    <h2>リンク</h2>
+                    <ul class="links">
+                        <li><a href="https://github.com/zukki4123">GitHub</a></li>
+                        <li><a href="https://qiita.com/yukuyuku4123">Qiita</a></li>
+                        <li><a href="https://note.com/yukuyuku_4123">note</a></li>
+                        <li><a href="https://twitter.com/yukuyuku4123">X</a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
 
-            <!-- メールフォーム（ダミー） -->
-            <form class="mailForm space">
-                <input type="text" placeholder="お名前" class="enter"><br>
-                <textarea cols="30" rows="3" placeholder="メッセージを入力してください。" class="enter"></textarea><br>
-                <input type="submit" value="送信" class="button"><input type="reset" value="消去" class="button">
-            </form>
-            <!-- /メールフォーム（ダミー） -->
-
-        </section>
-    </div>
-    <!-- /contentsWrap -->
-
-</div>
-<!-- /pageWrap -->
-
-<!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="js/index.js"></script>
+    <footer class="wrap site-footer"><small>© zukki / yukuyuku4123</small></footer>
 </body>
 </html>
